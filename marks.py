@@ -1,0 +1,18 @@
+student_name = input("enter a name:")
+usn = input("USN:")
+branch = input("Branch:")
+semester = input("Semester:")
+mark_1 = float(input("enter sub 1 marks:"))
+mark_2 = float(input("enter sub 2 marks:"))
+mark_3 = float(input("enter sub 3 marks:"))
+total_marks = mark_1 + mark_2 + mark_3
+average = total_marks / 3
+print(f"student_name:{student_name}")
+print(f"usn:{usn}") 
+print(f"branch:{branch}")
+print(f"semester:{semester}")
+print(f"mark_1:{mark_1}")
+print(f"mark_2:{mark_2}")
+print(f"mark_3:{mark_3}")
+print(f"Total marks:{total_marks}")
+print(f"average:{average:.2f}")
